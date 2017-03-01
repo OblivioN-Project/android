@@ -1,32 +1,15 @@
 Oblivion Project
-================
 
 Getting Started
----------------
 
-To get started, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To get started, you'll need to get familiar with Git and Repo.
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/Oblivion-Project/android.git -b ob7
-
+      repo init -u git://github.com/Oblivion-Project/android.git -b ob7
 Then to sync up:
 
-    repo sync -c -f --force-sync --no-clone-bundle --no-tags
-
+      repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
 Finally to build:
 
-    source build/./envsetup.sh && lunch ob_device-userdebug && make bacon
-
-When build is successful:
-  
-    make clobber
- 
-Finally: 
-
-    repo sync -c -f --force-sync --no-clone-bundle --no-tagAgain
- 
-And you're ready for another adventure into the Oblivion
- 
-
+      source build/./envsetup.sh && lunch ob_device-userdebug && make bacon
