@@ -13,7 +13,7 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
 Then to sync up:
 
-    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+    repo sync -c -f --force-sync --no-clone-bundle --no-tags
 
 Finally to build:
 
@@ -21,12 +21,12 @@ Finally to build:
 
 When build is successful:
   
-    make clean && clobber
+    make clobber
  
 Finally: 
 
-    repo sync again 
-
+    repo sync -c -f --force-sync --no-clone-bundle --no-tagAgain
+ 
 And you're ready for another adventure into the Oblivion
  
 
