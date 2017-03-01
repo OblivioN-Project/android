@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r21" />
+           revision="refs/tags/android-7.1.1_r22" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
@@ -503,6 +503,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="master" />
 
   <include name="snippets/cm.xml" />
 
