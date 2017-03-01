@@ -341,17 +341,6 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="OblivioN-Project/android_hardware_intel_common_libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libva" name="OblivioN-Project/android_hardware_intel_common_libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="OblivioN-Project/android_hardware_intel_common_libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="OblivioN-Project/android_hardware_intel_common_omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="OblivioN-Project/android_hardware_intel_common_utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/hwcomposer" name="OblivioN-Project/android_hardware_intel_img_hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="OblivioN-Project/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="OblivioN-Project/android_hardware_intel_img_psb_video" groups="intel" />
-  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="OblivioN-Project/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="OblivioN-Project/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="OblivioN-Project/android_hardware_libhardware_legacy" groups="pdk" />
