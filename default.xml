@@ -491,7 +491,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   
   <!-- EXTRAS -->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" revision="master" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" revision="n-rootless" />
   <project path="packages/apps/DUI" name="OblivioN-Project/android_packages_apps_DUI" />
   <project path="packages/apps/abyss" name="OblivioN-Project/android_packages_apps_abyss" />
 
