@@ -1,6 +1,6 @@
 Oblivion Project
 ===========
-
+n
 Getting Started
 ---------------
 
@@ -19,4 +19,13 @@ Finally to build:
 
     source build/./envsetup.sh && lunch ob_device-userdebug && make bacon
 
+When build is successful:
+  
+    make clean && clobber
+ 
+Finally: 
 
+    repo sync again 
+
+And you're ready for another adventure into the Oblivion
+ 
