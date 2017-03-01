@@ -505,6 +505,4 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="master" />
 
-  <include name="snippets/cm.xml" />
-
 </manifest>
