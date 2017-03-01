@@ -14,7 +14,8 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
 Then to sync up:
 
-    
+  
+    repo sync -c -f --force-sync --no-clone-bundle --no-tag  
 
 Finally to build:
 
