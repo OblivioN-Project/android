@@ -15,8 +15,7 @@
 
   <default revision="refs/heads/ob7"
            remote="github"
-           sync-c="true"
-           sync-j="4" />
+           sync-c="true" />
 
   <!-- AOSP Projects -->
 
