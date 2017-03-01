@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/OblivioN-Project/manifest_ob.git -b cm-14.1
+    repo init -u git://github.com/OblivioN-Project/manifest_ob.git -b ob7
 
 Then to sync up:
 
