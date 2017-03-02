@@ -12,7 +12,9 @@ To initialize your local repository using the OblivioN trees, use a command like
 Then to sync up:
 
   
-    repo sync -c -f --force-sync --no-clone-bundle --no-tags  
+    repo sync -c -f --force-sync --no-clone-bundle --no-tags -jX
+    
+(where X equals number of your processor cores x 2)
 
 Finally to build:
 
